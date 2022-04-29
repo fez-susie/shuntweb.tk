@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Home | SHunt2
+    </title>
+    <link rel="icon" type="image/x-icon" href="assets\logo.png">
+    <link rel="stylesheet" href="styleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="navBar.js"></script>
+  <style>
+
+  </style>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Scavenger Hunt 2</h1>
+      <p>Created by Tamsin Savery</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="home.html" class="active">Home</a>
+      <a href="temp.html">Puzzle Listing</a>
+      <a href="registration.html">Registration</a>
+      <a href="transport.html">Free Transport</a>
+      <a href="practice.html">Practice Content</a>
+      <a href="fame.html">Hall of Fame</a>
+      <a href="javascript:void(0);" class="icon" onclick="navi()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <h2>About Scavenger Hunt</h2>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!--IMGs-->
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v17.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v1.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v3.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v5.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v8.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v6.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v2.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v4.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v12.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v16.jpg" style="width:100%"></div>
+          <div class="mySlides fade"><img src="assets\Shunt1IMGS\v11.jpg" style="width:100%"></div>
+        </div>
+        <script>
+          let slideIndex = 0;
+          showSlides();
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+        </script>
+        
+        <p>
+          The Scavenger Hunt is a fun, friendly competition where participants work in teams to solve puzzles that lead to locations.<br><br>
+          Get a team together and nominate a team captain to register your team of the registration page.<br><br>
+          If you don't have a team, that's okay - fill out the individual registration and we will place you in one.
+        </p>
+      </div>
+
+      <div class="main">
+
+        <h2>On the Day: When and Where</h2>
+        <h5>dd/mm/2022</h5>
+        <iframe src="https://www.youtube.com/embed/tGxAYeeyoIc" height=500px width="100%"></iframe>
+        <p>
+          <table>
+            <tr>
+              <th class="details" colspan="2">Event</th>
+              <th class="time">Time (24 hr)</th>
+              <th class="location">Location</th>
+            </tr>
+            <tr>
+              <td class="event">Arrival Window</td>
+              <td class="details">15 mins to allow for people to arrive and teams to gather</td>
+              <td class="time">10:00 - 10:15</td>
+              <td class="location">Victoria Square</td>
+            </tr>
+            <tr>
+              <td class="event">Briefing</td>
+              <td class="details">From Tamsin regarding the day</td>
+              <td class="time">10:15</td>
+              <td class="location">Victoria Square</td>
+            </tr>
+            <tr>
+              <td class="event">Dispurtion</td>
+              <td class="details">The hunt begins and teams dispurse across the CBD</td>
+              <td class="time">10:20</td>
+              <td class="location">See map below</td>
+            </tr>
+            <tr>
+              <td class="event">Lunch Window</td>
+              <td class="details"></td>
+              <td class="time">12:00 - 13:30</td>
+              <td class="location">Victoria Square</td>
+            </tr>
+            <tr>
+              <td class="event">Awards</td>
+              <td class="details">All teams must be present for awards ceremony</td>
+              <td class="time">16:15 - 16:25</td>
+              <td class="location">Victoria Square</td>
+            </tr>
+            <tr>
+              <td class="event">Pick-Up</td>
+              <td class="details">All present are free to leave</td>
+              <td class="time">16:30</td>
+              <td class="location">Victoria Square</td>
+            </tr>
+          </table>
+        </p>
+        <h3>The Map</h3>
+        <p>
+          The map below outlines the area in which the activity will take place.
+          <ul>
+              <li>
+                  The purple house icon at Victoria Square is the rendezvous point.
+                  All major events across the day happen here.
+                  <b>If at anytime a team is split up or something goes wrong, all team members must report here.</b>
+              </li>
+              <li>
+                  The yellow starts represent the four squares and Rundle Mall.
+                  Use these as a safe place to rest and stay whilst puzzle solving.
+                  These roughly represent the bounding areas of the day.
+              </li>
+              <li>
+                  The blue polygon represents the boundaries.
+                  <b>All puzzles are within this zone.</b>
+                  You may leave the area but there is no need to do as such.
+              </li>
+          </ul>
+        </p>
+        <div class="mediaContent" style="height:600px;text-align:center;">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1ox8sSzDzBMR1Uk82BmVcUBcvh9vKltrX&ehbc=2E312F" width="100%" height="100%"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <small>
+        <b>Scavenger Hunt 2</b><br>
+        Created by Tamsin Savery <br>
+        E: tamsinsavery@gmail.com | M: 0478 834 577 | IG: @scavenger_hunt_2<br><br>
+        <a href="https://www.w3schools.com/">Website by Aidan de Sousa</a>
+      </small>
+    </div>
+
+  </body>
+</html>

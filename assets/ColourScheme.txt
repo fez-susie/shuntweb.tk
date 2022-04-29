@@ -1,0 +1,35 @@
+White (Outlines)
+RGB(255,255,255)
+#ffffff
+
+Charcoal (Text)
+#4a4a4a
+
+Dim Gray
+#6d6d6d
+
+Purple (Full Width Div)
+RGB(204,153,255)
+#cc99ff
+
+Blue (Main or Left Div)
+RGB(169,209,247)
+#a9d1f7
+
+Green (Side or Right Div)
+RGB(180,240,167)
+#b4f0a7
+
+Yellow (Navi)
+RGB(255,255,191)
+#ffffbf
+
+Orange (Navi Active)
+RGB(255,223,190)
+#ffdfbe
+
+Red (Navi Hover)
+RGB(255,177,176)
+#ffb1b0
+
+https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Frallyup.com%2F%3Fac_source%3Dgoogle_ads%26gclid%3DCj0KCQjwgYSTBhDKARIsAB8KuksoetmzX2pNviNPwt7dAMkIp50lCH1v1lhv8U66jhHL_SUkfogJxTgaAm35EALw_wcB&data=05%7C01%7CAid.deSousa%40stjohns.sa.edu.au%7Cd53239f0fb6e434c89f108da23ee2211%7C4de9cd3294394eff89257d423242d4fd%7C0%7C0%7C637861802920279348%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=IS1ooQmBcS%2FRR2I1uYGmbp%2FJw2PuyQELG8gD4tkhg4A%3D&reserved=0
