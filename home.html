@@ -17,17 +17,34 @@
     <!-- Header -->
     <div class="header">
       <h1>Scavenger Hunt 2</h1>
-      <p>Created by Tamsin Savery</p>
+      <p>Tamsin Savery & Aidan de Sousa</p>
     </div>
 
     <!-- Navigation Bar -->
-    <div class="topnav" id="myTopnav">
+    <div class="navi" id="myNavi">
       <a href="home.html" class="active">Home</a>
       <a href="puzzles.html">Puzzle Listing</a>
-      <a href="registration.html">Registration</a>
+      <div class="dropdownNavi">
+        <button class="dropbtnNavi"><a href="registration.html">
+          Registration <i class="fa fa-caret-down"></i>
+        </a></button>
+        <div class="dropdownNavi-content">
+          <a href="teamReg.html">Team Registration</a>
+          <a href="indReg.html">Individual Registration</a>
+        </div>
+      </div>
       <a href="rules.html">Rules</a>
       <a href="transport.html">Free Transport</a>
-      <a href="practice.html">Practice Content</a>
+      <div class="dropdownNavi">
+        <button class="dropbtnNavi"><a href="practice.html">
+          Practice Content <i class="fa fa-caret-down"></i>
+        </a></button>
+        <div class="dropdownNavi-content">
+          <a href="shunt1puzzles.html">SHunt1 Questions</a>
+          <a href="shunt1sols.html">SHunt1 Answers</a>
+          <a href="https://ozclo.org.au/past-problems/">OzCLO</a>
+        </div>
+      </div>
       <a href="fame.html">Hall of Fame</a>
       <a href="javascript:void(0);" class="icon" onclick="navi()">
           <i class="fa fa-bars"></i>
@@ -75,6 +92,13 @@
           Get a team together and nominate a team captain to register your team of the registration page.<br><br>
           If you don't have a team, that's okay - fill out the individual registration and we will place you in one.
         </p>
+        <div class="dropdown bodyClass">
+          <button class="dropbtn bodyClass"><a href="registration.html">Registration Page</a></button>
+          <div class="dropdown-content">  
+            <a href="teamReg.html">Team Registration</a>
+            <a href="indReg.html">Individual Registration</a>
+          </div>
+        </div>
       </div>
 
       <div class="main">

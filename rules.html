@@ -15,17 +15,34 @@
     <!-- Header -->
     <div class="header">
       <h1>Scavenger Hunt 2</h1>
-      <p>Created by Tamsin Savery</p>
+      <p>Tamsin Savery & Aidan de Sousa</p>
     </div>
 
     <!-- Navigation Bar -->
-    <div class="topnav" id="myTopnav">
+    <div class="navi" id="myNavi">
       <a href="home.html">Home</a>
       <a href="puzzles.html">Puzzle Listing</a>
-      <a href="registration.html">Registration</a>
+      <div class="dropdownNavi">
+        <button class="dropbtnNavi"><a href="registration.html">
+          Registration <i class="fa fa-caret-down"></i>
+        </a></button>
+        <div class="dropdownNavi-content">
+          <a href="teamReg.html">Team Registration</a>
+          <a href="indReg.html">Individual Registration</a>
+        </div>
+      </div>
       <a href="rules.html" class="active">Rules</a>
       <a href="transport.html">Free Transport</a>
-      <a href="practice.html">Practice Content</a>
+      <div class="dropdownNavi">
+        <button class="dropbtnNavi"><a href="practice.html">
+          Practice Content <i class="fa fa-caret-down"></i>
+        </a></button>
+        <div class="dropdownNavi-content">
+          <a href="shunt1puzzles.html">SHunt1 Questions</a>
+          <a href="shunt1sols.html">SHunt1 Answers</a>
+          <a href="https://ozclo.org.au/past-problems/">OzCLO</a>
+        </div>
+      </div>
       <a href="fame.html">Hall of Fame</a>
       <a href="javascript:void(0);" class="icon" onclick="navi()">
           <i class="fa fa-bars"></i>
