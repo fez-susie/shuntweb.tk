@@ -154,6 +154,7 @@ hr{
   display: block;
   color: #4a4a4a;
   text-decoration: none;
+  padding: 16.5px 16px;
 }
 /* Style the dropdown content (hidden by default) */
 .dropdownNavi-content {
